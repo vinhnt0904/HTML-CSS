@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    width: 100%;
+}
+.banner img{
+    max-width: 100%;
+}
+.menu{
+    background: #899394;
+    height: 80px;
+}
+.aroud{
+    width: 95%;
+    height: auto;
+    margin-left: 50px;
+}
+.menu .fas{
+    margin: 5px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    padding-top: 25px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    margin-left: 6%;
+}
+ul li{
+    list-style: none;
+    width: 200px;
+    font-size: 16px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.8 ease;
+}
+ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+.title{
+    position: absolute;
+    top:40%;
+    left: 10%;
+}
+.title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66, 63, 62);
+    font-size: 50px;
+}
+.button{
+    position:absolute;
+    top: 60%;
+    left: 10%;
+}
+.bton{
+    color: rgb(66, 62, 62);
+    padding: 5px 30px;
+    font-size: 25px;
+    text-decoration: none;
+    border: 1px solid rgb(192, 186, 186);
+    transition: .3s ease;
+    border-radius: 5px;
+}
+.bton:hover{
+    background: rgb(68, 66, 66);
+    color: white;
+}
+.bton a{
+    font-weight: 900;
+}

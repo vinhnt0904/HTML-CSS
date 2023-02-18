@@ -1,0 +1,156 @@
+.container{
+    width: 100%;
+    display: block;
+    background-color: gray;
+}
+body{
+    margin: 0px ;
+}
+.header{
+    width: 100%;
+    background-color: white;
+    min-height: 300px;
+    position: relative;
+}
+.body{
+    width: 100%;
+    min-height: 1000px;
+    background-color: white;
+}
+.footer{
+    width: 100%;
+    min-height: 50px;
+    background-color: gray;
+    position: relative;
+}
+.left-main{
+    width: 70%;
+    float: left;
+    
+}
+.right-menu{
+    width: 30%;
+    float: left;
+    background-color: red;
+    min-height: 1000px;
+    text-align: justify;
+}
+.topbar{
+    background-color: grey;
+    padding: 25px 30px 40px 30px ;
+    min-height: 15px;
+}
+.topbar .topbar-left{
+    width: 70%;
+    float: left;
+}
+.topbar .topbar-right{
+    width: 28%;
+    float: left;
+    text-align: right;
+}
+.topbar img{
+    margin: 0px 3px 3px 3px;
+
+}
+.topbar ul {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0px;
+    margin: 0px;
+}
+.topbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.topbar ul li{
+    padding: 5px 15px 5px 15px ;
+}
+.topbar-left > ul > li:hover{
+    border-radius: 4px;
+    background: forestgreen;
+    
+}
+.topbar-left > ul > li > a:hover{
+   color: black;
+}
+.TKW-son ul{
+    z-index: 2;
+    display: none;
+}
+.topbar-left ul li:hover .TKW-son{
+    display: block;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+.topbar-left ul li:hover .TKW-son ul{
+    opacity: 0.9;
+    background-color: green;
+    border-radius: 3px;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    width: 120px;
+    text-align: left;
+    position: absolute;
+    height: 100px;
+}
+.topbar-left ul li:hover .TKW-son ul li a:hover{
+    color: greenyellow;
+    background: transparent;
+}
+.search{
+    position: absolute;
+    left: 480px;
+    top: 25px;
+}
+.search input{
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    padding: 7px 12px 7px 10px;
+}
+.search button{
+    position: absolute;
+    top: 6px;
+    left: 295px;
+    border: none;
+}
+.search button:hover{
+    border-radius: 3px;
+    background: gray;
+    color: white;
+}
+.topbar-right ul li a:hover{
+    color: rgb(245, 45, 45);
+}
+.logo{
+    z-index: 1;
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 132px;
+}
+.logo #baner-left{
+    position: absolute;
+    top: 15px;
+    left: 0px;
+}
+.logo #baner-right{
+    position: absolute;
+    left: 35%;
+    top: 15px;
+}
+.menu{
+    position: absolute;
+    background-color: gray;
+    top: 300px;
+}
+.fb-like{
+    position: absolute;
+    top: 300px;
+    left: 47%;
+}
+

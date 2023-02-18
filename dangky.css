@@ -1,0 +1,44 @@
+#frmDangKy{
+    width: 600px;
+    margin: 0 auto;
+    border: 3px solid rgb(10, 165, 236);
+    border-radius: 10px;
+    font-size: 22px;
+    box-shadow: 5px 5px rgb(10, 165, 236);
+    background-color: white;
+}
+.heading{
+    background-color: rgb(10, 165, 236);
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 0px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+#frmDangKy label{
+    width: 150px;
+    display: inline-block;
+    color: black;
+}
+#frmDangKy .txt{
+    width: 380px;
+    border: 1px solid rgb(10, 165, 236)e;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+#frmDangKy button{
+    width: 150px;
+    height: 40px;
+    font-size: 1em;
+    border-radius: 20px;
+    box-shadow: px 2px gray;
+}
+#frmDangKy button:hover{
+    color: white;
+    background-color: rgb(10, 165, 236);
+}
+#frmDangKy p{
+    margin-left: 5px;
+}

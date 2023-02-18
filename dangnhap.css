@@ -1,0 +1,53 @@
+*{
+    max-width: 1200px;
+}
+.login{
+    text-align: center;
+    background-color: gray;
+    width: 400px;
+    height: 500px;
+    margin-left: 35%;
+    margin-top: 60px;
+}
+.acc{
+    border-radius: 7px;
+    padding: 14px 16px;
+    width: 330px;
+}
+.pw{
+    border-radius: 7px;
+    padding: 14px 16px;
+    width: 330px;
+}
+.btn{
+    border: none;
+    color: white;
+    background-color: #1877f2;
+    border-radius: 7px;
+    padding: 0px 16px;
+    width: 332px;
+    line-height: 48px;
+    margin-top: 50px;
+}
+.forget{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.forget a{
+    text-decoration: none;
+    color: #1877f2;
+}
+.new-acc{
+    background-color: #42b72a;
+    color: white;
+    margin-top: 50px;
+    border-radius: 6px;
+    line-height: 48px;
+    font-size: 17px;
+    padding: 0 16px;
+}
+hr{
+    background-color: grey;
+    margin: 30px 10px 0px 10px;
+}

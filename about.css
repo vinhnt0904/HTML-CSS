@@ -1,0 +1,41 @@
+body{
+    background-color: burlywood;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: blanchedalmond;
+}
+.icons i{
+    padding: 30px;
+}
+.fab{
+    font-size: 30px;
+    transition: 0.3s ease;
+    color: blue;
+}
+.fab:hover{
+    color: rgb(231, 77, 77);
+}
+.icons p{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.baner{
+    max-width: 800px;
+    max-height: 800px;
+}
+.banner img{
+    width: 300px;
+    height: 600px;
+}
+.banner p{
+    font-size: 40px;
+    margin: 30px 0 30px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 280px;
+}
